@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-	  <title>fits | Welcome</title>
+	  <title>fits | Gallery</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link href="https://www.fontify.me/wf/07d9f1c8ddbeee7167ef4e85120d6400" rel="stylesheet" type="text/css">
@@ -32,18 +32,18 @@
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav centered ">
+      <ul class="navbar-nav centered">
         <li class="nav-item active">
-          <a class="nav-link lnk" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link lnk" href="home.html">Home </a>
         </li>
         <li class="nav-item">
           <a class="nav-link lnk" href="services.html">Services</a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link lnk">About Us</a>
+            <a class="nav-link lnk" href="about-us.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link lnk">Gallery</a>
+          <a class="nav-link lnk"><span class="active-nav">Gallery</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link lnk" href="contact-us.html">Contact Us</a>
@@ -75,31 +75,92 @@
   </nav>
   <!--navbar ends-->
   <!--container begins-->
-	<div class="container-fluid pr-0 pl-0">
-    <div class="fullscreen">
-      <div class="col-md-12 name-holder">
-          <h1 class="name">flexy it solutions</h1>
-      </div>
-      <div class="welcome-note-holder">
-        <div class="welcome-note" >
-          <p>
-            Welcome to Flexy IT Solutions.
-            <br> We offer Fast, Efficient and Creative Information Technology Solutions. 
-            <br> Your Satisfaction Is our Utmost Priority
-            <br>Enter to learn more about us!
-            <br><a href="home.html" class="enter-button" data-toggle="tooltip" data-placement="top" title="Tooltip on top">ENTER</a>
-          </p>
-        </div>         
-      </div>
-      <p class="copyright">&copy; fits 2019</p>        
-    </div>    
-	</div>
-    
 
+  <div class="container-fluid about-us-dark pr-0 pl-0" >
+    <div class="services-body-dark col-md-12 pr-0 pl-0">
+      <div class="page-title-white ">
+        <h2>Gallery</h2>
+      </div>
+      <div class="col-md-12 pt-4 pb-3">
+        <div class="">
+          <h2 class="bold-center">Under Construction</h2>
+          <p class="countdown-text bold-center">Time Left Until Launching</p>
+          <div id="countdown" class="mb-4"></div>
+        </div>
+      </div>
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-12 footer pb-3">
+      <div class="row">
+        <div class="col-6 p-3">
+          <ul class="list-unstyled">
+            <li class="lil-bold">Useful Links</li>
+            <li class="useful-link"><a href="home.html">Home</a></li>
+            <li class="useful-link"> <a href="services.html">Services</a></li>
+            <li class="useful-link"> <a href="gallery.html">Gallery</a></li>
+            <li class="useful-link"><a href="contact-us.html">Contact Us</a></li>            
+          </ul>
+        </div>
+        <div class="col-6 p-3 float-right">
+          FITS Flexy IT Solutions<br>
+          4 Israel Olubiyi Street, Unity Estate Iba.
+          <form class=" my-2 my-lg-0 ml-auto">
+              <a href="#" class="socialmed">
+                <span style="font-size: 1em; color: #00acee;">
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </a>
+              <a href="#" class="socialmed">
+                <span style="font-size: 1em; color: red;">
+                  <i class="fab fa-instagram"></i>
+                </span>  
+              </a>
+              <a href="#" class="socialmed">
+                <span style="font-size: 1em; color: #3b5998;">
+                 <i class="fab fa-facebook"></i>
+                </span>
+              </a>
+              <a href="#" class="socialmed">
+                  <span style="font-size: 1em; color: white;">
+                      <i class="fab fa-github"></i>
+                  </span>
+                </a>
+            </form>
+        </div>
+        <div class="col-12 centered-text">
+          &copy; Flexy IT Solutions 2019.
+        </div>
+      </div>
+  </div>    
+<!--call button begins-->
+<div class="phone fixed-bottom   float-right ">
+  <a href="tel:+2348122492116">              
+    <span style="font-size: 2em; color: #ffffff" class="">
+      <i class="fas fa-phone phone-logo"></i>
+    </span>
+  </a>
+</div>
+<!--call button ends-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Countdown Script -->
+<script type="text/javascript" src="scripts/jquery.countdown.min.js"></script>
+
+<script type="text/javascript">
+  $("#countdown")
+  .countdown('2020/08/12', function(event) {
+  var $this = $(this).html(event.strftime(''
+    + '<div><span>%D</span>  <i>Days</i></div>'
+    + '<div><span>%H</span> <i>Hours</i></div> '
+    + '<div><span>%M</span> <i>Min</i></div> '
+    + '<div><span>%S</span> <i>Sec</i></div>'));
+});
+</script>
    </body>
 </html>

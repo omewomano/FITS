@@ -62,5 +62,8 @@
     .pix{
         width: 15%;
     }
+    .active-nav{
+        padding-bottom: 2%;
+    }
 
 }

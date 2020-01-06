@@ -108,6 +108,17 @@
     
 }
 /* home page begins */
+.useful-link > a{
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+.useful-link > a:hover {
+    color: #ffffff !important;
+    text-shadow: 2px 2px #996515;
+    text-decoration: none;
+}
+
 .upper-body{
     background-color: black;
     color: #ffffff;
@@ -459,5 +470,8 @@
 }
 .pix{
     width: 200px;
+}
+.lil-bold{
+    font-weight: 700;
 }
 /* About us page styling ends */

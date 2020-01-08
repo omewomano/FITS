@@ -486,7 +486,7 @@
 
 #countdown div {
 	display: inline-block;
-	margin: 0 5px;
+    margin: 0 5px;
 }
 
 #countdown div:first-child i { border: none;}
@@ -513,7 +513,7 @@
     text-align: center;
 	letter-spacing: 1px;
 	background-color: #996515;
-	color: #000;
+	color: #000000;
 	border-radius: 0 0 3px 3px;
 }
 

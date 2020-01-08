@@ -51,13 +51,11 @@
     .mission{
         position: absolute;
         top: -306px;  
-        color: red;
     }
     
     .core-values{
         position: absolute;
-        top: -585px;
-        color: green;      
+        top: -585px;    
     }
     .pix{
         width: 15%;
@@ -65,5 +63,27 @@
     .active-nav{
         padding-bottom: 2%;
     }
-
+    /* count down css */
+    #countdown {
+        font-weight: 400;
+        padding-left: 2%;
+    }
+    #countdown div {
+        width: 75px;    
+        margin: 0 4px;
+    }
+    #countdown span {
+        background-color: rgba(255,255,255,0.1);
+        font-size: 35px;
+        color: #fff;
+        width: 71px;    
+        text-align: center;
+        display: inline-block;
+        padding-left: 1%;
+        letter-spacing: -1px;
+        border-radius: 3px 3px 0 0;
+    }
+    #countdown i {
+        width: 71px;    
+    }
 }
